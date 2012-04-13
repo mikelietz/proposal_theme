@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<pluggable type="theme">
+	<name>Critical Hit</name>
+	<license url="http://www.apache.org/licenses/LICENSE-2.0.html">Apache Software License 2.0</license>
+	<author url="http://asymptomatic.net/">Owen Winkler</author>
+	<url>http://asymptomatic.net</url>
+	<version>1.0</version>
+	<template_engine>rawphpengine</template_engine>
+	<description><![CDATA[This is theme for Critical Hit]]></description>
+	<parent>Wazi</parent>
+	
+	<areas>
+		<area name="nav">
+			<description><![CDATA[The navigation area]]></description>
+		</area>
+		<area name="sidebar">
+			<description><![CDATA[The sidebar area]]></description>
+		</area>
+		<area name="footer">
+			<description><![CDATA[The footer area]]></description>
+		</area>
+	</areas>
+</pluggable>
