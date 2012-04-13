@@ -12,6 +12,7 @@ class CriticalHitTheme extends WaziTheme
 		foreach($assets['less'] as $less) {
 			Stack::add('template_stylesheet', array($less , 'screen,projection,print', array('rel' => 'stylesheet/less')));
 		}
+		Stack::add('template_footer_javascript', 'http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js', 'jquery');
 	}
 
 	public function action_theme_ui( $theme )
